@@ -26,7 +26,7 @@
 			<groupId>org.webjars</groupId>
 			<artifactId>webjars-locator-core</artifactId>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.webjars</groupId>
 			<artifactId>bootstrap</artifactId>
@@ -42,13 +42,13 @@
 		<dependency>
 			<groupId>org.webjars</groupId>
 			<artifactId>jquery</artifactId>
-			<version>3.3.1-1</version>			
+			<version>3.3.1-1</version>
 		</dependency>
 		
 		<dependency>
 			<groupId>org.webjars.bower</groupId>
 			<artifactId>jquery-mask-plugin</artifactId>
-			<version>1.14.13</version>			
+			<version>1.14.13</version>
 		</dependency>
 	
 		<dependency>

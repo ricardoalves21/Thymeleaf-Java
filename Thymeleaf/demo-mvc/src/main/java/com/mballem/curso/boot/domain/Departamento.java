@@ -8,7 +8,7 @@ import javax.persistence.*;
 @Table(name = "DEPARTAMENTOS") // nome da tabela no banco de dados
 public class Departamento extends AbstractEntity<Long> {
 	
-	@Column(name = "nome", nullable = false, unique = true, length = 60) // mapeando o atributo 'nome' para a coluna do banco de dados
+	@Column(name = "nome", nullable = false, unique = true, length = 60) // mapeando o atributo 'nome' para a coluna do banco de dados.
 	private String nome;
 	
 	@OneToMany(mappedBy = "departamento") // relação muitos cargos para 1 departamento, o mappedBy faz que com o relacionamento seja bidirecional, ou seja, há um lado fraco (cargo) e um forte(departamento) na relação

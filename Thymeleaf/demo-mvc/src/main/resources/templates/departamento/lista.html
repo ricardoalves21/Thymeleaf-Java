@@ -37,7 +37,7 @@
 					<tbody>
 						<tr th:each="d : ${departamentos}">
 							<td th:text="${d.id}">3</td>
-							<td th:text="${nome}">Administração</td>
+							<td th:text="${d.nome}">Administração</td>
 							<td colspan="2">
 								<a class="btn btn-info btn-sm" href="/departamentos/editar/3" role="button">
 									<span class="oi oi-brush" title="Editar" aria-hidden="true"></span>

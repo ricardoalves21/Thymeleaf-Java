@@ -18,7 +18,6 @@ public class DepartamentoController {
 
 	@GetMapping("/cadastrar")
 	public String cadastrar(Departamento departamento) {
-
 		return "/departamento/cadastro";
 	}
 	
@@ -31,7 +30,7 @@ public class DepartamentoController {
 	@PostMapping("/salvar")
 	public String salvar(Departamento departamento) {
 		service.salvar(departamento);
-		return "redirect:/departamento/cadastrar";
+		return "redirect:/departamento/cadastro";
 	}
 	
 }
